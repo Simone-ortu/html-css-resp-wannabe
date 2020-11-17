@@ -76,6 +76,7 @@ img {
   #lezioni .row>.right{
     float: none;
     margin: auto;
+    width: 350px;
   }
   #steps .row>.left,
   #steps .row>.central,
@@ -84,6 +85,17 @@ img {
     text-align: center;
     margin: auto;
   }
-
-
+  img {
+    height: 100px;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 350px;
+    margin-top: 80px;
+    margin: auto;
+  }
+  .container.grey {
+    background-color: #f9f9f9;
+  }
 }
